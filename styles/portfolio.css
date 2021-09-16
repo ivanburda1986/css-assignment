@@ -1,0 +1,116 @@
+/* Banner */
+.portfolio-banner {
+  background-image: url("../assets/cover.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.portfolio-banner button {
+  width: 75%;
+  max-width: 400px;
+  padding: 0.5em 1em;
+  margin: 1.5em 0em;
+  background-color: var(--secondary);
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+/* Introduction */
+.portfolio-introduction {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/* Gallery */
+.portfolio-gallery {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4em;
+}
+
+.portfolioGalleryNav {
+  margin-bottom: 2em;
+  width: 80%;
+}
+
+.portfolioGalleryNav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.portfolioGalleryNavOption {
+  padding: 1em 1.5em;
+  margin: 0.25em;
+  border-radius: 3px;
+}
+
+.portfolioGalleryNavOption.selected {
+  background-color: var(--primary);
+}
+
+.portfolioGalleryNavOption.selected a {
+  color: #fff;
+}
+
+.portfolioGalleryNavOption + .portfolioGalleryNavOption {
+  margin-left: 0.5em;
+}
+
+.portfolioGalleryNavOption a {
+  color: var(--primary);
+  text-transform: uppercase;
+}
+
+.portfolio-gallery-images {
+  width: 100%;
+  display: grid;
+  column-gap: 0;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.galleryImg {
+  display: flex;
+}
+
+.galleryImg img {
+  width: 100%;
+}
+
+/* RESPONSIVENESS */
+@media screen and (max-width: 900px) {
+  /* Portfolio banner */
+  .portfolio-banner button {
+    padding: 1em 0em;
+    margin: 1em auto;
+    font-size: 1rem;
+  }
+
+  /* Portfolio introduction */
+  .portfolio-introduction p {
+    font-size: 1rem;
+  }
+  /* Gallery */
+  .portfolioGalleryNavOption {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    padding: 0.5em 0em;
+    margin: 0;
+    text-align: center;
+  }
+
+  .galleryImg {
+    margin-bottom: 5px;
+  }
+}

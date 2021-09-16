@@ -1,0 +1,450 @@
+/* Banner */
+.aboutus-banner {
+  background-image: url("../assets/cover.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-height: 100vh;
+  margin-bottom: 2rem;
+}
+
+.aboutus-banner .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.aboutus-banner .mainBtn {
+  width: 80%;
+  max-width: 500px;
+  padding: 1.25em 1em;
+  margin: 0.25em 0em;
+  margin-top: 5em;
+  background-color: var(--secondary);
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.aboutus-banner .secondaryBtn {
+  width: 70%;
+  max-width: 450px;
+  padding: 1em 1em;
+  margin: 0.25em 0em;
+  margin-bottom: 25em;
+  background-color: #fff;
+  border: none;
+  border-radius: 3px;
+  color: var(--basicDark);
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+/* Key qualities */
+.aboutus-keyqualities .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.keyquality {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 28%;
+  min-width: 250px;
+  text-align: center;
+  margin-bottom: 2.5em;
+}
+
+.keyquality i {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-bottom: 0.25em;
+  font-size: 3.5rem;
+  color: #fff;
+  background-color: var(--primary);
+  border-radius: 3px;
+}
+
+.keyquality .bold {
+  font-weight: 600;
+  margin-bottom: 0.25em;
+}
+
+/* Webdesign key aspects */
+.aboutus-key-aspects {
+  background-image: url("../assets-aboutus/supa.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.aboutus-key-aspects .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.dragonface {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 40%;
+  min-width: 250px;
+}
+
+.dragonface img {
+  width: 80%;
+}
+
+.buttonAndAspects {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 60%;
+  margin-bottom: 2em;
+}
+
+.aboutus-key-aspects .mainBtn {
+  width: 80%;
+  padding: 0.75em 1em;
+  margin: 0.5em 0em;
+  margin-top: 2em;
+  background-color: var(--basicDark);
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+.aboutus-key-aspects .secondaryBtn {
+  width: 100%;
+  padding: 1em 1em;
+  margin: 0.25em 0em;
+  margin-bottom: 2em;
+  background-color: var(--secondary);
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.main-aspects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main-aspect {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 45%;
+  margin-bottom: 1em;
+  border-radius: 3px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.main-aspect .text {
+  width: 100%;
+  text-align: center;
+  padding: 0 0.2em;
+}
+
+.main-aspect i {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 70px;
+  font-size: 2rem;
+  color: #fff;
+  background-color: var(--primary);
+  border-radius: 3px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.main-aspect {
+  margin-left: 1em;
+}
+
+/* Project stats */
+.aboutus-project-stats .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.project-stat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 28%;
+  min-width: 250px;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.project-stat i {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin: auto;
+  font-size: 3.5rem;
+  color: var(--basicDark);
+}
+
+.project-stat span {
+  margin: 0 0.25em;
+}
+
+.stat-type {
+  padding: 1em 1em;
+  margin: 0.25em 0em;
+  margin-bottom: 2em;
+  min-width: 240px;
+  background-color: var(--secondary);
+  border-radius: 3px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+/* Work portfolio gallery */
+.aboutus-work-portfolio-gallery {
+  background-color: var(--basicDark);
+  color: #fff;
+}
+
+.aboutus-work-portfolio-gallery .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.aboutus-work-portfolio-gallery h1 {
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+.aboutus-work-portfolio-gallery .subtitle {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.work-portfolio-gallery-images {
+  width: 100%;
+  display: grid;
+  column-gap: 0;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 1em;
+}
+
+.galleryImg {
+  display: flex;
+}
+
+.galleryImg img {
+  width: 100%;
+}
+
+.aboutus-work-portfolio-gallery button {
+  padding: 0.75em 3em;
+  background-color: var(--primary);
+  min-width: 200px;
+  margin-bottom: 2em;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+/* Our clients */
+.aboutus-clients .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4em;
+}
+
+.aboutus-clients h1 {
+  margin-bottom: 0.5em;
+}
+
+.aboutus-clients .subtitle {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.clientsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.client {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.reversed {
+  flex-direction: row-reverse;
+}
+
+.clientImg {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clientImg img {
+  width: 100%;
+}
+
+.clientInfo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 1em;
+}
+
+.clientInfoMaintext {
+  font-style: italic;
+  font-size: 0.95rem;
+  margin-bottom: 0.5em;
+}
+
+.clientInfoName {
+  font-size: 1.2rem;
+  color: var(--basicMiddle);
+}
+
+.clientInfoName span {
+  color: red;
+  text-transform: uppercase;
+}
+
+/* RESPONSIVENESS */
+@media screen and (max-width: 700px) {
+  /* Webdesign key aspects */
+  .dragonface {
+    display: none;
+  }
+
+  .buttonAndAspects {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+  }
+
+  .main-aspect {
+    min-width: 220px;
+  }
+
+  /* Work portfolio gallery */
+  .work-portfolio-gallery-images {
+    width: 100%;
+    display: grid;
+    column-gap: 0;
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 1em;
+  }
+
+  .galleryImg {
+    margin-bottom: 0.5em;
+  }
+}
+
+/* Our clients */
+.clientsContainer {
+  width: 100%;
+}
+
+.clientImg {
+  width: 40%;
+}
+
+.clientInfo {
+  width: 60%;
+}
+
+@media screen and (max-width: 500px) {
+  /* Webdesign key aspects */
+  .main-aspect {
+    width: 75%;
+  }
+
+  /* Our clients */
+  .client {
+    flex-direction: column;
+  }
+  .clientImg {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .clientInfo {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.1rem;
+  }
+  .clientInfoName {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .clientImg {
+    width: 30%;
+  }
+
+  .clientInfoMaintext {
+    font-size: 1.2rem;
+  }
+}
